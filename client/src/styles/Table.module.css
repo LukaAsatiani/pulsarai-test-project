@@ -1,0 +1,44 @@
+.container {
+  width: 80%;
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.table {
+  width: 100%;
+  min-width: 520px;
+}
+
+.row {
+  background-color: #486a75;
+  height: 40px;
+  color: white;
+}
+
+.header {    
+  background-color: #2a3c42;
+}
+
+.header:hover {
+  cursor: pointer;
+}
+
+.row > td, th {
+  padding: 0 10px;
+}
+
+.row > th {
+  text-align: start;
+}
+
+.row > th > span {
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  position: relative;
+}
+
+.row > th > span > svg {
+  position: absolute;
+  right: 0;
+}
